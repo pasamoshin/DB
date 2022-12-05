@@ -17,7 +17,7 @@ CREATE TABLE IF NOT EXISTS genre_executor (
 CREATE TABLE IF NOT EXISTS Albums (
 	album_id SERIAL PRIMARY KEY,
 	name VARCHAR(60) NOT NULL,
-	year_release YEAR NOT NULL
+	year_release INTEGER NOT NULL
 );
 
 CREATE TABLE IF NOT EXISTS executor_album (
